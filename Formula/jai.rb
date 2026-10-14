@@ -17,22 +17,22 @@ class Jai < Formula
   on_macos do
     on_arm do
       url "https://github.com/matteopolak/jai/releases/download/v0.17.0/jai-macos-arm64.tar.gz"
-      sha256 "114c7ef649f404b16efb423fa636755f32a30ad3ca98e2202accbfe1da9817ab"
+      sha256 "36e7e0c70c91847e80deccc540b2803a3aac6ba10a8668496549e93db4e2267c"
     end
     on_intel do
       url "https://github.com/matteopolak/jai/releases/download/v0.17.0/jai-macos-x64.tar.gz"
-      sha256 "33dd332786d3de8717e83c7abb0e3b5e5ee50c81b84c34d16f3c4182d6950fb6"
+      sha256 "ba131f14bbda421be610dc084a4609d99da21470f20e0e35e444b5699d87dbf3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/matteopolak/jai/releases/download/v0.17.0/jai-linux-arm64.tar.gz"
-      sha256 "3a986824d418d59c6b5dcca8331157c6cb6004c4aeb3ee84681571c60dd6273f"
+      sha256 "0aa3f16566eea1200a89559024a65be9ba639e4ceb3beec30a8731f3495bf898"
     end
     on_intel do
       url "https://github.com/matteopolak/jai/releases/download/v0.17.0/jai-linux-x64.tar.gz"
-      sha256 "cad359338a0c20401b62f7237ddd2224990cfbc3de3ca38c2072b7570a63da47"
+      sha256 "21718880b122ac9a23b9d35b763ce658e2ab2bf05958bb4c022c572e552be89e"
     end
   end
 
